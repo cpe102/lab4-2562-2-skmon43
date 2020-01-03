@@ -4,6 +4,9 @@
 using namespace std;
 
 int findDivisor(int num){
+	if (num == 1) {
+		return 1;
+	}
 	int i = 2;
 	while (i < num){
 		if (num % i == 0){
